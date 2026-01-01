@@ -1319,83 +1319,7 @@
                 都能找到适合的解决方案。
             </p>
             <div class="product-list" id="productList">
-                <!-- 产品1 -->
-                <div class="product-card">
-                    <div class="product-img">
-                        <img src="https://picsum.photos/id/20/600/400" alt="智能锁A1">
-                        <span class="product-tag">热销</span>
-                        <div class="product-stats">
-                            <span><i class="fa-solid fa-shield"></i> C级锁芯</span>
-                            <span><i class="fa-solid fa-battery-full"></i> 365天续航</span>
-                        </div>
-                    </div>
-                    <div class="product-info">
-                        <h3 class="product-name">加斯顿A1智能锁</h3>
-                        <p class="product-desc">全自动指纹锁，支持指纹、密码、刷卡、手机APP等多种解锁方式，适合多种门型</p>
-                        <div class="product-params">
-                            <span>指纹解锁</span>
-                            <span>密码解锁</span>
-                            <span>APP控制</span>
-                        </div>
-                        <div class="product-price">¥1299</div>
-                        <div class="product-btns">
-                            <button class="btn btn-outline view-product" data-id="1">查看详情</button>
-                            <button class="btn btn-primary">立即购买</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 产品2 -->
-                <div class="product-card">
-                    <div class="product-img">
-                        <img src="https://picsum.photos/id/21/600/400" alt="智能锁B2">
-                        <span class="product-tag">新品</span>
-                        <div class="product-stats">
-                            <span><i class="fa-solid fa-shield"></i> C级锁芯</span>
-                            <span><i class="fa-solid fa-battery-full"></i> 500天续航</span>
-                        </div>
-                    </div>
-                    <div class="product-info">
-                        <h3 class="product-name">加斯顿B2人脸识别锁</h3>
-                        <p class="product-desc">3D结构光人脸识别，全自动开锁，支持多种解锁方式，适合高端家庭使用</p>
-                        <div class="product-params">
-                            <span>人脸识别</span>
-                            <span>指纹解锁</span>
-                            <span>远程控制</span>
-                        </div>
-                        <div class="product-price">¥2599</div>
-                        <div class="product-btns">
-                            <button class="btn btn-outline view-product" data-id="2">查看详情</button>
-                            <button class="btn btn-primary">立即购买</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 产品3 -->
-                <div class="product-card">
-                    <div class="product-img">
-                        <img src="https://picsum.photos/id/22/600/400" alt="智能锁C3">
-                        <span class="product-tag">经济款</span>
-                        <div class="product-stats">
-                            <span><i class="fa-solid fa-shield"></i> C级锁芯</span>
-                            <span><i class="fa-solid fa-battery-full"></i> 200天续航</span>
-                        </div>
-                    </div>
-                    <div class="product-info">
-                        <h3 class="product-name">加斯顿C3基础款智能锁</h3>
-                        <p class="product-desc">高性价比智能锁，支持指纹、密码、钥匙三种基础解锁方式，安装简单</p>
-                        <div class="product-params">
-                            <span>指纹解锁</span>
-                            <span>密码解锁</span>
-                            <span>钥匙解锁</span>
-                        </div>
-                        <div class="product-price">¥899</div>
-                        <div class="product-btns">
-                            <button class="btn btn-outline view-product" data-id="3">查看详情</button>
-                            <button class="btn btn-primary">立即购买</button>
-                        </div>
-                    </div>
-                </div>
+                <!-- 产品将通过JS动态生成 -->
             </div>
         </div>
     </section>
@@ -1412,32 +1336,32 @@
                 <div class="feature-item">
                     <i class="fa-solid fa-fingerprint"></i>
                     <h3 class="feature-name">指纹识别</h3>
-                    <p class="feature-desc">采用半导体指纹头，识别速度快，准确率高，支持干湿手指识别</p>
+                    <p class="feature-desc">采用半导体指纹传感器，识别速度快，准确率高，支持多人指纹录入</p>
                 </div>
                 <div class="feature-item">
                     <i class="fa-solid fa-mobile-screen-button"></i>
                     <h3 class="feature-name">手机控制</h3>
-                    <p class="feature-desc">通过APP远程控制门锁，支持远程开锁、查看开锁记录、发送临时密码</p>
+                    <p class="feature-desc">通过APP远程控制门锁，支持远程开锁、授权临时密码、查看开锁记录</p>
                 </div>
                 <div class="feature-item">
                     <i class="fa-solid fa-shield-halved"></i>
                     <h3 class="feature-name">多重防护</h3>
-                    <p class="feature-desc">C级锁芯，防小黑盒破解，防撬报警，异常尝试报警，保障家庭安全</p>
-                </div>
-                <div class="feature-item">
-                    <i class="fa-solid fa-bell"></i>
-                    <h3 class="feature-name">实时报警</h3>
-                    <p class="feature-desc">异常情况实时推送至手机，包括撬锁、试错、低电量等状态提醒</p>
-                </div>
-                <div class="feature-item">
-                    <i class="fa-solid fa-key"></i>
-                    <h3 class="feature-name">多种解锁</h3>
-                    <p class="feature-desc">支持指纹、密码、刷卡、手机、钥匙等多种解锁方式，满足不同场景</p>
+                    <p class="feature-desc">防撬报警、试错报警、劫持报警等多重安全防护，保障家庭安全</p>
                 </div>
                 <div class="feature-item">
                     <i class="fa-solid fa-battery-full"></i>
                     <h3 class="feature-name">超长续航</h3>
-                    <p class="feature-desc">低功耗设计，4节AA电池可支持正常使用12个月以上，电量低时提醒</p>
+                    <p class="feature-desc">低功耗设计，4节AA电池可使用12个月，电量低时智能提醒</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fa-solid fa-wifi"></i>
+                    <h3 class="feature-name">联网功能</h3>
+                    <p class="feature-desc">支持WiFi连接，实时同步开锁记录，异常情况及时推送</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fa-solid fa-key"></i>
+                    <h3 class="feature-name">多种开锁方式</h3>
+                    <p class="feature-desc">指纹、密码、手机、刷卡、钥匙等多种开锁方式，灵活应对各种场景</p>
                 </div>
             </div>
         </div>
@@ -1448,36 +1372,40 @@
         <div class="container">
             <div class="app-wrap">
                 <div class="app-img">
-                    <img src="https://picsum.photos/id/119/300/600" alt="加斯顿APP">
+                    <img src="https://picsum.photos/id/2/300/600" alt="加斯顿APP">
                     <div class="app-qrcode">
-                        <img src="https://picsum.photos/id/237/200/200" alt="APP下载二维码">
+                        <img src="https://picsum.photos/id/3/200/200" alt="APP下载二维码">
                         <p>扫码下载APP</p>
                     </div>
                 </div>
                 <div class="app-info">
                     <h2 class="app-title">
-                        下载<span>加斯顿APP</span>，掌控智能生活
+                        下载<span>加斯顿</span>APP，掌控家门安全
                     </h2>
                     <p class="app-desc">
-                        通过加斯顿APP，您可以远程控制智能锁，查看开门记录，设置临时密码，
-                        接收异常报警等，让您随时随地掌握家门动态，为家庭安全增添一份保障。
+                        通过加斯顿APP，您可以随时随地掌控家门状态，远程授权临时密码，
+                        查看开锁记录，接收异常提醒，让家庭安全尽在掌握。
                     </p>
                     <div class="app-features">
                         <div class="app-feature-item">
-                            <i class="fa-solid fa-check-circle"></i>
-                            <span>远程查看开门记录，了解家人出入情况</span>
+                            <i class="fa-solid fa-check"></i>
+                            <span>远程控制门锁开关</span>
                         </div>
                         <div class="app-feature-item">
-                            <i class="fa-solid fa-check-circle"></i>
-                            <span>生成临时密码，方便访客临时进入</span>
+                            <i class="fa-solid fa-check"></i>
+                            <span>生成一次性临时密码</span>
                         </div>
                         <div class="app-feature-item">
-                            <i class="fa-solid fa-check-circle"></i>
-                            <span>实时接收报警信息，异常情况及时处理</span>
+                            <i class="fa-solid fa-check"></i>
+                            <span>实时查看开锁记录</span>
                         </div>
                         <div class="app-feature-item">
-                            <i class="fa-solid fa-check-circle"></i>
-                            <span>管理多个智能锁设备，一键操作便捷高效</span>
+                            <i class="fa-solid fa-check"></i>
+                            <span>异常情况即时推送</span>
+                        </div>
+                        <div class="app-feature-item">
+                            <i class="fa-solid fa-check"></i>
+                            <span>管理多个智能锁设备</span>
                         </div>
                     </div>
                     <div class="download-btns">
@@ -1506,21 +1434,22 @@
         <div class="container">
             <h2 class="section-title">联系我们</h2>
             <p class="section-desc">
-                如有任何疑问或需求，欢迎通过以下方式联系我们，我们将竭诚为您服务
+                如果您对我们的产品有任何疑问或建议，欢迎随时联系我们，
+                我们的客服团队将竭诚为您服务。
             </p>
             <div class="contact-info">
                 <div class="contact-item">
                     <i class="fa-solid fa-map-marker-alt"></i>
                     <div>
                         <h3 class="contact-title">公司地址</h3>
-                        <p class="contact-text">北京市朝阳区科技园区88号加斯顿大厦15层</p>
+                        <p class="contact-text">北京市朝阳区科技园A座1001室</p>
                     </div>
                 </div>
                 <div class="contact-item">
                     <i class="fa-solid fa-phone"></i>
                     <div>
                         <h3 class="contact-title">联系电话</h3>
-                        <p class="contact-text">400-888-9999</p>
+                        <p class="contact-text">400-123-4567</p>
                         <p class="contact-text">工作时间：周一至周日 9:00-21:00</p>
                     </div>
                 </div>
@@ -1529,15 +1458,14 @@
                     <div>
                         <h3 class="contact-title">电子邮箱</h3>
                         <p class="contact-text">service@gaston-lock.com</p>
-                        <p class="contact-text">support@gaston-lock.com</p>
                     </div>
                 </div>
                 <div class="contact-item">
                     <i class="fa-solid fa-headphones"></i>
                     <div>
-                        <h3 class="contact-title">售后服务</h3>
-                        <p class="contact-text">提供3年免费质保，终身维护服务</p>
-                        <p class="contact-text">专业安装团队，全国覆盖</p>
+                        <h3 class="contact-title">在线客服</h3>
+                        <p class="contact-text">微信公众号：加斯顿智能锁</p>
+                        <p class="contact-text">QQ：123456789</p>
                     </div>
                 </div>
             </div>
@@ -1545,29 +1473,29 @@
                 <form id="contactForm">
                     <div class="form-group">
                         <label for="name">姓名</label>
-                        <input type="text" id="name" placeholder="请输入您的姓名">
-                        <div class="form-tip">请输入姓名</div>
+                        <input type="text" id="name" placeholder="请输入您的姓名" required>
+                        <div class="form-tip" id="nameTip">请输入您的姓名</div>
                     </div>
                     <div class="form-group">
                         <label for="phone">电话</label>
-                        <input type="tel" id="phone" placeholder="请输入您的手机号码">
-                        <div class="form-tip">请输入正确的手机号码</div>
+                        <input type="tel" id="phone" placeholder="请输入您的联系电话" required>
+                        <div class="form-tip" id="phoneTip">请输入有效的电话号码</div>
                     </div>
                     <div class="form-group">
-                        <label for="product">感兴趣的产品</label>
-                        <select id="product">
-                            <option value="">请选择产品</option>
-                            <option value="A1">加斯顿A1智能锁</option>
-                            <option value="B2">加斯顿B2人脸识别锁</option>
-                            <option value="C3">加斯顿C3基础款智能锁</option>
-                            <option value="other">其他产品</option>
+                        <label for="productType">感兴趣的产品</label>
+                        <select id="productType" required>
+                            <option value="">请选择产品类型</option>
+                            <option value="指纹锁">指纹锁</option>
+                            <option value="人脸识别锁">人脸识别锁</option>
+                            <option value="智能门锁">智能门锁</option>
+                            <option value="其他">其他</option>
                         </select>
-                        <div class="form-tip">请选择产品</div>
+                        <div class="form-tip" id="productTip">请选择产品类型</div>
                     </div>
                     <div class="form-group">
                         <label for="message">留言内容</label>
-                        <textarea id="message" placeholder="请输入您的需求或疑问"></textarea>
-                        <div class="form-tip">请输入留言内容</div>
+                        <textarea id="message" placeholder="请输入您的留言内容" required></textarea>
+                        <div class="form-tip" id="messageTip">请输入留言内容，不少于10个字</div>
                     </div>
                     <button type="submit" class="btn btn-primary" style="width: 100%;">提交留言</button>
                 </form>
@@ -1584,8 +1512,8 @@
                     <span>加斯顿智能锁</span>
                 </div>
                 <p class="footer-desc">
-                    加斯顿智能锁，致力于为全球家庭提供安全、便捷的智能门锁解决方案，
-                    用科技守护每一个家庭的安全。
+                    加斯顿智能锁，致力于为全球家庭提供安全、便捷的智能锁解决方案，
+                    让每一个家庭都能享受科技带来的美好生活。
                 </p>
                 <div class="footer-social">
                     <a href="#"><i class="fa-brands fa-weixin"></i></a>
@@ -1597,11 +1525,11 @@
             <div class="footer-col">
                 <h3 class="footer-title">产品系列</h3>
                 <ul class="footer-links">
-                    <li><a href="#">A系列智能锁</a></li>
-                    <li><a href="#">B系列人脸识别锁</a></li>
-                    <li><a href="#">C系列基础款</a></li>
-                    <li><a href="#">商用智能锁</a></li>
-                    <li><a href="#">智能门控系统</a></li>
+                    <li><a href="#">指纹智能锁</a></li>
+                    <li><a href="#">人脸识别锁</a></li>
+                    <li><a href="#">全自动智能锁</a></li>
+                    <li><a href="#">推拉式智能锁</a></li>
+                    <li><a href="#">别墅专用智能锁</a></li>
                 </ul>
             </div>
             <div class="footer-col">
@@ -1621,16 +1549,21 @@
                     <li><a href="#">使用手册</a></li>
                     <li><a href="#">常见问题</a></li>
                     <li><a href="#">保修政策</a></li>
-                    <li><a href="#">预约维修</a></li>
+                    <li><a href="#">售后服务网点</a></li>
                 </ul>
             </div>
         </div>
         <div class="copyright">
-            <p>© 2023 加斯顿智能科技有限公司 版权所有 京ICP备12345678号</p>
+            <p>© 2023 加斯顿智能锁 版权所有 京ICP备12345678号</p>
         </div>
     </footer>
 
-    <!-- 登录模态框 -->
+    <!-- 回到顶部按钮 -->
+    <div class="back-to-top" id="backToTop">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+
+    <!-- 登录弹窗 -->
     <div class="login-modal" id="loginModal">
         <div class="login-box">
             <div class="login-header">
@@ -1641,383 +1574,448 @@
             </div>
             <form class="login-form" id="loginForm">
                 <div class="form-group">
-                    <label for="loginPhone">手机号码</label>
-                    <input type="tel" id="loginPhone" placeholder="请输入手机号码">
-                    <div class="form-tip">请输入正确的手机号码</div>
+                    <label for="loginAccount">账号/手机号</label>
+                    <input type="text" id="loginAccount" placeholder="请输入账号或手机号" required>
+                    <div class="form-tip" id="accountTip">请输入有效的账号或手机号</div>
                 </div>
                 <div class="form-group pwd-group">
                     <label for="loginPwd">密码</label>
-                    <input type="password" id="loginPwd" placeholder="请输入密码">
+                    <input type="password" id="loginPwd" placeholder="请输入密码" required>
                     <i class="fa-solid fa-eye toggle-pwd" id="togglePwd"></i>
-                    <div class="form-tip">密码长度不少于6位</div>
+                    <div class="form-tip" id="pwdTip">密码长度不少于6位</div>
                 </div>
                 <div class="remember-group">
                     <input type="checkbox" id="rememberPwd">
                     <label for="rememberPwd">记住密码</label>
                 </div>
-                <button type="submit" class="btn btn-primary" style="width: 100%;">登录</button>
+                <button type="submit" class="btn btn-primary" style="width: 100%;" id="loginSubmitBtn">登录</button>
                 <div class="login-links">
                     <a href="#">忘记密码？</a>
-                    <a href="#">还没有账号？注册</a>
+                    <a href="#">注册账号</a>
                 </div>
             </form>
         </div>
     </div>
 
-    <!-- 产品详情模态框 -->
+    <!-- 产品详情弹窗 -->
     <div class="product-modal" id="productModal">
         <div class="product-detail-box">
             <div class="product-detail-header">
-                <h3 class="product-detail-title" id="modalProductTitle">产品详情</h3>
+                <h3 class="product-detail-title" id="productDetailTitle">产品详情</h3>
                 <button class="close-product" id="closeProduct">
                     <i class="fa-solid fa-xmark"></i>
                 </button>
             </div>
-            <div class="product-detail-content" id="modalProductContent">
-                <!-- 产品详情内容将通过JS动态填充 -->
+            <div class="product-detail-content">
+                <div class="product-detail-img">
+                    <img src="" alt="产品详情图" id="productDetailImg">
+                </div>
+                <div class="product-detail-info">
+                    <div class="product-detail-price" id="productDetailPrice">¥0</div>
+                    <span class="product-detail-tag" id="productDetailTag">标签</span>
+                    <p class="product-detail-desc" id="productDetailDesc">产品描述</p>
+                    <div class="product-detail-params">
+                        <h4>详细参数</h4>
+                        <table id="productDetailParams">
+                            <tbody>
+                                <tr>
+                                    <td>解锁方式</td>
+                                    <td id="paramUnlock">--</td>
+                                </tr>
+                                <tr>
+                                    <td>识别速度</td>
+                                    <td id="paramSpeed">--</td>
+                                </tr>
+                                <tr>
+                                    <td>适用门厚</td>
+                                    <td id="paramDoorThickness">--</td>
+                                </tr>
+                                <tr>
+                                    <td>电源类型</td>
+                                    <td id="paramPower">--</td>
+                                </tr>
+                                <tr>
+                                    <td>续航时间</td>
+                                    <td id="paramBattery">--</td>
+                                </tr>
+                                <tr>
+                                    <td>通讯方式</td>
+                                    <td id="paramCommunication">--</td>
+                                </tr>
+                                <tr>
+                                    <td>安装方式</td>
+                                    <td id="paramInstallation">--</td>
+                                </tr>
+                                <tr>
+                                    <td>质保期限</td>
+                                    <td id="paramWarranty">--</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="product-detail-btns">
+                        <button class="btn btn-primary" style="width: 100%;">立即购买</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
-    <!-- 返回顶部按钮 -->
-    <div class="back-to-top" id="backToTop">
-        <i class="fa-solid fa-arrow-up"></i>
-    </div>
-
     <script>
-        // 页面加载完成后执行
-        document.addEventListener('DOMContentLoaded', function() {
-            // 导航栏滚动效果
-            const nav = document.getElementById('mainNav');
-            window.addEventListener('scroll', function() {
-                if (window.scrollY > 50) {
-                    nav.classList.add('scroll');
-                } else {
-                    nav.classList.remove('scroll');
-                }
-            });
-
-            // 移动端菜单控制
-            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
-            const closeMobileMenu = document.getElementById('closeMobileMenu');
-            const mobileMenuMask = document.getElementById('mobileMenuMask');
-            const mobileMenu = document.getElementById('mobileMenu');
-            const mobileLinks = document.querySelectorAll('.mobile-link');
-
-            mobileMenuBtn.addEventListener('click', function() {
-                mobileMenu.classList.add('active');
-                mobileMenuMask.classList.add('active');
-                document.body.style.overflow = 'hidden';
-            });
-
-            function closeMenu() {
-                mobileMenu.classList.remove('active');
-                mobileMenuMask.classList.remove('active');
-                document.body.style.overflow = '';
-            }
-
-            closeMobileMenu.addEventListener('click', closeMenu);
-            mobileMenuMask.addEventListener('click', closeMenu);
-            mobileLinks.forEach(link => {
-                link.addEventListener('click', closeMenu);
-            });
-
-            // 登录模态框控制
-            const loginBtn = document.getElementById('loginBtn');
-            const mobileLoginBtn = document.getElementById('mobileLoginBtn');
-            const loginModal = document.getElementById('loginModal');
-            const closeLogin = document.getElementById('closeLogin');
-
-            function openLoginModal() {
-                loginModal.classList.add('active');
-                document.body.style.overflow = 'hidden';
-            }
-
-            function closeLoginModal() {
-                loginModal.classList.remove('active');
-                document.body.style.overflow = '';
-            }
-
-            loginBtn.addEventListener('click', openLoginModal);
-            mobileLoginBtn.addEventListener('click', openLoginModal);
-            closeLogin.addEventListener('click', closeLoginModal);
-            loginModal.addEventListener('click', function(e) {
-                if (e.target === loginModal) {
-                    closeLoginModal();
-                }
-            });
-
-            // 密码显示/隐藏切换
-            const togglePwd = document.getElementById('togglePwd');
-            const loginPwd = document.getElementById('loginPwd');
-
-            togglePwd.addEventListener('click', function() {
-                const type = loginPwd.getAttribute('type') === 'password' ? 'text' : 'password';
-                loginPwd.setAttribute('type', type);
-                this.classList.toggle('fa-eye');
-                this.classList.toggle('fa-eye-slash');
-            });
-
-            // 产品详情模态框控制
-            const productModal = document.getElementById('productModal');
-            const closeProduct = document.getElementById('closeProduct');
-            const viewProductBtns = document.querySelectorAll('.view-product');
-            const modalProductTitle = document.getElementById('modalProductTitle');
-            const modalProductContent = document.getElementById('modalProductContent');
-
-            // 产品数据
-            const products = {
-                1: {
-                    name: "加斯顿A1智能锁",
-                    price: "¥1299",
-                    tag: "热销产品",
-                    img: "https://picsum.photos/id/20/800/600",
-                    desc: "加斯顿A1智能锁是一款高性价比的全自动智能锁，采用先进的指纹识别技术，识别速度快至0.3秒，准确率达99.9%。支持指纹、密码、刷卡、手机APP、应急钥匙等多种解锁方式，满足不同场景需求。",
-                    params: {
-                        "产品材质": "锌合金面板",
-                        "指纹容量": "100枚",
-                        "密码容量": "50组",
-                        "卡片容量": "50张",
-                        "工作电压": "6V（4节AA电池）",
-                        "待机电流": "<50μA",
-                        "工作温度": "-20℃~60℃",
-                        "适用门厚": "40mm~120mm",
-                        "开锁方式": "指纹、密码、刷卡、APP、钥匙"
-                    }
+        // 产品数据
+        const products = [
+            {
+                id: 1,
+                name: "加斯顿Pro X1 人脸识别智能锁",
+                desc: "采用3D结构光人脸识别技术，精准快速，支持多种开锁方式，适合各类家庭使用。",
+                price: 2999,
+                tag: "热销",
+                img: "https://picsum.photos/id/11/500/300",
+                params: {
+                    unlock: "人脸识别、指纹、密码、手机、刷卡、钥匙",
+                    speed: "0.3秒",
+                    doorThickness: "40-120mm",
+                    power: "锂电池 5000mAh",
+                    battery: "6-8个月",
+                    communication: "WiFi、蓝牙",
+                    installation: "上门安装",
+                    warranty: "2年"
                 },
-                2: {
-                    name: "加斯顿B2人脸识别锁",
-                    price: "¥2599",
-                    tag: "新品上市",
-                    img: "https://picsum.photos/id/21/800/600",
-                    desc: "加斯顿B2人脸识别锁采用3D结构光人脸识别技术，夜间也能精准识别，识别距离0.3-1.5米，支持多种光线下快速识别。全自动锁体设计，识别成功后自动开锁，关门自动上锁，使用更便捷。",
-                    params: {
-                        "产品材质": "航空级铝合金",
-                        "人脸容量": "50张",
-                        "指纹容量": "100枚",
-                        "密码容量": "50组",
-                        "工作电压": "8V（锂电池）",
-                        "待机时间": "500天",
-                        "识别距离": "0.3-1.5米",
-                        "工作温度": "-25℃~70℃",
-                        "适用门厚": "40mm~120mm",
-                        "开锁方式": "人脸、指纹、密码、刷卡、APP、钥匙"
-                    }
+                features: ["3D人脸识别", "全自动锁体", "远程控制", "防小黑盒"]
+            },
+            {
+                id: 2,
+                name: "加斯顿S200 指纹智能锁",
+                desc: "高灵敏度指纹识别，支持虚位密码防偷窥，C级锁芯，安全可靠。",
+                price: 1599,
+                tag: "性价比",
+                img: "https://picsum.photos/id/12/500/300",
+                params: {
+                    unlock: "指纹、密码、手机、刷卡、钥匙",
+                    speed: "0.5秒",
+                    doorThickness: "40-100mm",
+                    power: "4节AA电池",
+                    battery: "12个月",
+                    communication: "蓝牙",
+                    installation: "上门安装",
+                    warranty: "1年"
                 },
-                3: {
-                    name: "加斯顿C3基础款智能锁",
-                    price: "¥899",
-                    tag: "经济款",
-                    img: "https://picsum.photos/id/22/800/600",
-                    desc: "加斯顿C3基础款智能锁是一款高性价比的入门级智能锁，保留核心智能功能，去除冗余设计，适合预算有限的家庭使用。操作简单，安装方便，支持多种基础解锁方式，满足日常使用需求。",
-                    params: {
-                        "产品材质": "合金面板",
-                        "指纹容量": "50枚",
-                        "密码容量": "30组",
-                        "工作电压": "6V（4节AA电池）",
-                        "待机电流": "<60μA",
-                        "工作温度": "-10℃~50℃",
-                        "适用门厚": "40mm~100mm",
-                        "开锁方式": "指纹、密码、钥匙"
-                    }
-                }
-            };
+                features: ["指纹识别", "虚位密码", "C级锁芯", "低电量提醒"]
+            },
+            {
+                id: 3,
+                name: "加斯顿V5 别墅专用智能锁",
+                desc: "专为别墅大门设计，支持双开门同步控制，多种开锁方式，尽显高端品质。",
+                price: 4599,
+                tag: "高端",
+                img: "https://picsum.photos/id/13/500/300",
+                params: {
+                    unlock: "人脸识别、指纹、密码、手机、刷卡、钥匙",
+                    speed: "0.3秒",
+                    doorThickness: "50-150mm",
+                    power: "锂电池 7000mAh",
+                    battery: "8-12个月",
+                    communication: "WiFi、蓝牙、ZigBee",
+                    installation: "定制安装",
+                    warranty: "3年"
+                },
+                features: ["双门同步", "多重验证", "防暴力开启", "远程管理"]
+            }
+        ];
 
-            function openProductModal(id) {
-                const product = products[id];
-                if (!product) return;
+        // DOM元素
+        const nav = document.getElementById('mainNav');
+        const sections = document.querySelectorAll('.section');
+        const backToTop = document.getElementById('backToTop');
+        const loginModal = document.getElementById('loginModal');
+        const closeLogin = document.getElementById('closeLogin');
+        const loginBtn = document.getElementById('loginBtn');
+        const mobileLoginBtn = document.getElementById('mobileLoginBtn');
+        const registerBtn = document.getElementById('registerBtn');
+        const mobileRegisterBtn = document.getElementById('mobileRegisterBtn');
+        const togglePwd = document.getElementById('togglePwd');
+        const loginPwd = document.getElementById('loginPwd');
+        const loginForm = document.getElementById('loginForm');
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const mobileMenuMask = document.getElementById('mobileMenuMask');
+        const closeMobileMenu = document.getElementById('closeMobileMenu');
+        const mobileLinks = document.querySelectorAll('.mobile-link');
+        const productList = document.getElementById('productList');
+        const productModal = document.getElementById('productModal');
+        const closeProduct = document.getElementById('closeProduct');
+        const contactForm = document.getElementById('contactForm');
 
-                modalProductTitle.textContent = product.name;
-                
-                // 构建产品详情HTML
-                let paramsHtml = '';
-                for (const [key, value] of Object.entries(product.params)) {
-                    paramsHtml += `
-                        <tr>
-                            <td>${key}</td>
-                            <td>${value}</td>
-                        </tr>
-                    `;
-                }
-
-                modalProductContent.innerHTML = `
-                    <div class="product-detail-img">
+        // 初始化产品列表
+        function initProducts() {
+            products.forEach(product => {
+                const productCard = document.createElement('div');
+                productCard.className = 'product-card';
+                productCard.innerHTML = `
+                    <div class="product-img">
                         <img src="${product.img}" alt="${product.name}">
-                    </div>
-                    <div class="product-detail-info">
-                        <div class="product-detail-price">${product.price}</div>
-                        <span class="product-detail-tag">${product.tag}</span>
-                        <p class="product-detail-desc">${product.desc}</p>
-                        <div class="product-detail-params">
-                            <h4>技术参数</h4>
-                            <table>
-                                ${paramsHtml}
-                            </table>
+                        <span class="product-tag">${product.tag}</span>
+                        <div class="product-stats">
+                            <span><i class="fa-solid fa-shield"></i> 安全认证</span>
+                            <span><i class="fa-solid fa-truck"></i> 免费配送</span>
                         </div>
-                        <div style="display: flex; gap: 15px;">
-                            <button class="btn btn-primary" style="flex: 1;">立即购买</button>
-                            <button class="btn btn-outline" style="flex: 1;">加入购物车</button>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">${product.name}</h3>
+                        <p class="product-desc">${product.desc}</p>
+                        <div class="product-params">
+                            ${product.features.map(feature => `<span>${feature}</span>`).join('')}
+                        </div>
+                        <div class="product-price">¥${product.price}</div>
+                        <div class="product-btns">
+                            <button class="btn btn-outline view-product" data-id="${product.id}">查看详情</button>
+                            <button class="btn btn-primary">加入购物车</button>
                         </div>
                     </div>
                 `;
+                productList.appendChild(productCard);
+            });
 
-                productModal.classList.add('active');
-                document.body.style.overflow = 'hidden';
+            // 绑定查看详情事件
+            document.querySelectorAll('.view-product').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const productId = parseInt(btn.getAttribute('data-id'));
+                    showProductDetail(productId);
+                });
+            });
+        }
+
+        // 显示产品详情
+        function showProductDetail(id) {
+            const product = products.find(p => p.id === id);
+            if (!product) return;
+
+            document.getElementById('productDetailTitle').textContent = product.name;
+            document.getElementById('productDetailImg').src = product.img;
+            document.getElementById('productDetailImg').alt = product.name;
+            document.getElementById('productDetailPrice').textContent = `¥${product.price}`;
+            document.getElementById('productDetailTag').textContent = product.tag;
+            document.getElementById('productDetailDesc').textContent = product.desc;
+            
+            // 填充参数
+            document.getElementById('paramUnlock').textContent = product.params.unlock;
+            document.getElementById('paramSpeed').textContent = product.params.speed;
+            document.getElementById('paramDoorThickness').textContent = product.params.doorThickness;
+            document.getElementById('paramPower').textContent = product.params.power;
+            document.getElementById('paramBattery').textContent = product.params.battery;
+            document.getElementById('paramCommunication').textContent = product.params.communication;
+            document.getElementById('paramInstallation').textContent = product.params.installation;
+            document.getElementById('paramWarranty').textContent = product.params.warranty;
+
+            productModal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        // 导航栏滚动效果
+        function handleScroll() {
+            if (window.scrollY > 50) {
+                nav.classList.add('scroll');
+                backToTop.classList.add('active');
+            } else {
+                nav.classList.remove('scroll');
+                backToTop.classList.remove('active');
             }
 
-            function closeProductModal() {
+            // 滚动显示动画
+            sections.forEach(section => {
+                const sectionTop = section.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+                if (sectionTop < windowHeight * 0.75) {
+                    section.classList.add('active');
+                }
+            });
+
+            // 更新导航激活状态
+            const currentPosition = window.scrollY + 100;
+            document.querySelectorAll('.nav-menu a').forEach(link => {
+                const targetId = link.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    const targetTop = targetElement.offsetTop;
+                    const targetHeight = targetElement.offsetHeight;
+                    if (currentPosition >= targetTop && currentPosition < targetTop + targetHeight) {
+                        link.classList.add('active');
+                    } else {
+                        link.classList.remove('active');
+                    }
+                }
+            });
+        }
+
+        // 回到顶部
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+
+        // 显示登录弹窗
+        function showLoginModal() {
+            loginModal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        // 隐藏登录弹窗
+        function hideLoginModal() {
+            loginModal.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        // 切换密码可见性
+        function togglePasswordVisibility() {
+            const type = loginPwd.getAttribute('type') === 'password' ? 'text' : 'password';
+            loginPwd.setAttribute('type', type);
+            togglePwd.classList.toggle('fa-eye');
+            togglePwd.classList.toggle('fa-eye-slash');
+        }
+
+        // 验证登录表单
+        function validateLoginForm(e) {
+            e.preventDefault();
+            const account = document.getElementById('loginAccount').value.trim();
+            const password = loginPwd.value.trim();
+            let isValid = true;
+
+            // 验证账号
+            if (!account) {
+                document.getElementById('accountTip').classList.add('active');
+                isValid = false;
+            } else {
+                document.getElementById('accountTip').classList.remove('active');
+            }
+
+            // 验证密码
+            if (password.length < 6) {
+                document.getElementById('pwdTip').classList.add('active');
+                isValid = false;
+            } else {
+                document.getElementById('pwdTip').classList.remove('active');
+            }
+
+            if (isValid) {
+                // 模拟登录成功
+                alert('登录成功！');
+                hideLoginModal();
+                loginForm.reset();
+            }
+        }
+
+        // 显示移动端菜单
+        function showMobileMenu() {
+            mobileMenu.classList.add('active');
+            mobileMenuMask.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        // 隐藏移动端菜单
+        function hideMobileMenu() {
+            mobileMenu.classList.remove('active');
+            mobileMenuMask.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        // 验证联系表单
+        function validateContactForm(e) {
+            e.preventDefault();
+            const name = document.getElementById('name').value.trim();
+            const phone = document.getElementById('phone').value.trim();
+            const productType = document.getElementById('productType').value;
+            const message = document.getElementById('message').value.trim();
+            let isValid = true;
+
+            // 验证姓名
+            if (!name) {
+                document.getElementById('nameTip').classList.add('active');
+                isValid = false;
+            } else {
+                document.getElementById('nameTip').classList.remove('active');
+            }
+
+            // 验证电话
+            const phoneReg = /^1[3-9]\d{9}$/;
+            if (!phoneReg.test(phone)) {
+                document.getElementById('phoneTip').classList.add('active');
+                isValid = false;
+            } else {
+                document.getElementById('phoneTip').classList.remove('active');
+            }
+
+            // 验证产品类型
+            if (!productType) {
+                document.getElementById('productTip').classList.add('active');
+                isValid = false;
+            } else {
+                document.getElementById('productTip').classList.remove('active');
+            }
+
+            // 验证留言
+            if (message.length < 10) {
+                document.getElementById('messageTip').classList.add('active');
+                isValid = false;
+            } else {
+                document.getElementById('messageTip').classList.remove('active');
+            }
+
+            if (isValid) {
+                // 模拟提交成功
+                alert('留言提交成功，我们会尽快与您联系！');
+                contactForm.reset();
+            }
+        }
+
+        // 事件监听
+        window.addEventListener('scroll', handleScroll);
+        backToTop.addEventListener('click', scrollToTop);
+        loginBtn.addEventListener('click', showLoginModal);
+        mobileLoginBtn.addEventListener('click', () => {
+            hideMobileMenu();
+            showLoginModal();
+        });
+        closeLogin.addEventListener('click', hideLoginModal);
+        togglePwd.addEventListener('click', togglePasswordVisibility);
+        loginForm.addEventListener('submit', validateLoginForm);
+        mobileMenuBtn.addEventListener('click', showMobileMenu);
+        closeMobileMenu.addEventListener('click', hideMobileMenu);
+        mobileMenuMask.addEventListener('click', hideMobileMenu);
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                hideMobileMenu();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+        closeProduct.addEventListener('click', () => {
+            productModal.classList.remove('active');
+            document.body.style.overflow = '';
+        });
+        productModal.addEventListener('click', (e) => {
+            if (e.target === productModal) {
                 productModal.classList.remove('active');
                 document.body.style.overflow = '';
             }
+        });
+        contactForm.addEventListener('submit', validateContactForm);
+        registerBtn.addEventListener('click', () => {
+            alert('注册功能即将上线，敬请期待！');
+        });
+        mobileRegisterBtn.addEventListener('click', () => {
+            hideMobileMenu();
+            alert('注册功能即将上线，敬请期待！');
+        });
 
-            viewProductBtns.forEach(btn => {
-                btn.addEventListener('click', function() {
-                    const id = this.getAttribute('data-id');
-                    openProductModal(id);
-                });
-            });
-
-            closeProduct.addEventListener('click', closeProductModal);
-            productModal.addEventListener('click', function(e) {
-                if (e.target === productModal) {
-                    closeProductModal();
-                }
-            });
-
-                // 3. 回到顶部按钮
-            const backToTopBtn = document.getElementById('back-to-top');
-        window.addEventListener('scroll', () => {
-      if (window.scrollY > 300) {
-        backToTopBtn.classList.remove('opacity-0', 'invisible');
-        backToTopBtn.classList.add('opacity-100', 'visible');
-      } else {
-        backToTopBtn.classList.add('opacity-0', 'invisible');
-        backToTopBtn.classList.remove('opacity-100', 'visible');
-      }
-    });
-    backToTopBtn.addEventListener('click', () => {
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-      });
-    });
-
-            // 滚动动画
-            const sections = document.querySelectorAll('.section');
-            
-            function checkSections() {
-                const triggerBottom = window.innerHeight * 0.8;
-                
-                sections.forEach(section => {
-                    const sectionTop = section.getBoundingClientRect().top;
-                    
-                    if (sectionTop < triggerBottom) {
-                        section.classList.add('active');
-                    }
-                });
-            }
-
-            window.addEventListener('scroll', checkSections);
-            checkSections(); // 初始检查
-
-            // 表单验证
-            const contactForm = document.getElementById('contactForm');
-            
-            contactForm.addEventListener('submit', function(e) {
-                e.preventDefault();
-                let isValid = true;
-                
-                // 姓名验证
-                const name = document.getElementById('name');
-                if (!name.value.trim()) {
-                    showError(name, '请输入姓名');
-                    isValid = false;
-                } else {
-                    hideError(name);
-                }
-                
-                // 电话验证
-                const phone = document.getElementById('phone');
-                const phoneReg = /^1[3-9]\d{9}$/;
-                if (!phoneReg.test(phone.value.trim())) {
-                    showError(phone, '请输入正确的手机号码');
-                    isValid = false;
-                } else {
-                    hideError(phone);
-                }
-                
-                // 产品选择验证
-                const product = document.getElementById('product');
-                if (!product.value) {
-                    showError(product, '请选择产品');
-                    isValid = false;
-                } else {
-                    hideError(product);
-                }
-                
-                // 留言验证
-                const message = document.getElementById('message');
-                if (!message.value.trim()) {
-                    showError(message, '请输入留言内容');
-                    isValid = false;
-                } else {
-                    hideError(message);
-                }
-                
-                if (isValid) {
-                    // 表单提交逻辑
-                    alert('留言提交成功，我们会尽快与您联系！');
-                    contactForm.reset();
-                }
-            });
-
-            // 登录表单验证
-            const loginForm = document.getElementById('loginForm');
-            
-            loginForm.addEventListener('submit', function(e) {
-                e.preventDefault();
-                let isValid = true;
-                
-                // 手机号验证
-                const loginPhone = document.getElementById('loginPhone');
-                const phoneReg = /^1[3-9]\d{9}$/;
-                if (!phoneReg.test(loginPhone.value.trim())) {
-                    showError(loginPhone, '请输入正确的手机号码');
-                    isValid = false;
-                } else {
-                    hideError(loginPhone);
-                }
-                
-                // 密码验证
-                const loginPwd = document.getElementById('loginPwd');
-                if (loginPwd.value.length < 6) {
-                    showError(loginPwd, '密码长度不少于6位');
-                    isValid = false;
-                } else {
-                    hideError(loginPwd);
-                }
-                
-                if (isValid) {
-                    // 登录逻辑
-                    alert('登录成功！');
-                    closeLoginModal();
-                    loginForm.reset();
-                }
-            });
-
-            // 错误提示显示/隐藏
-            function showError(element, text) {
-                const tip = element.nextElementSibling;
-                tip.textContent = text;
-                tip.classList.add('active');
-                element.style.borderColor = '#ef4444';
-            }
-
-            function hideError(element) {
-                const tip = element.nextElementSibling;
-                tip.classList.remove('active');
-                element.style.borderColor = '#ddd';
-            }
+        // 初始化
+        window.addEventListener('DOMContentLoaded', () => {
+            initProducts();
+            handleScroll(); // 初始触发一次滚动事件
         });
     </script>
 </body>
